@@ -1,0 +1,8 @@
+<?php
+CREATE TABLE cursos(
+	id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	nome_curso VARCHAR(50) NOT NULL,
+	status_curso TINYINT(1) NOT NULL (DEFAULT 1)
+
+	)
+?>
